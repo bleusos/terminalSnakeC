@@ -236,7 +236,7 @@ int main(void){
     head->next = body0;
     body0->prev = head;
 
-    // linked list words backward so head -> body 0 -> body 1 ... -> tail
+    // linked list works backward so head -> body 0 -> body 1 ... -> tail
 
     gameSnake.head = head;
     gameSnake.tail = body0;
